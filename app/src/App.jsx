@@ -21,6 +21,9 @@ function App() {
   
   return (
     <>
+      <a href="https://github.com/JonathanSavastano/devops-resume" target="_blank" rel="noopener noreferrer">
+        View on GitHub
+      </a>
       <h1>My Resume</h1>
       <Document file={resume} onLoadSuccess={onLoadSuccess}>
         {Array.from({ length: numPages }, (_, index) =>
